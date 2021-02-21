@@ -20,9 +20,13 @@ Following are the `questions` I tried to answer from the model:
 - Q3: Which features are responsible for customer to get a Loan or Not.
 
 Some of the key findings are:
-- Income and Mortgage columns are sweked and have kurtosis, hence logarithm of these columns are transformed to Normal Distribution 
+- `Income` and `Mortgage` columns are sweked and have kurtosis, hence logarithm of these columns transformed to Normal Distribution 
 - From the statistics summary of data we observed that Experience column has some negative values, also we checked the correlation between Age and Experience and found that they are highly corrleated hence dropped the Experience column
 - From `SHAP` for expalaining the decision it was observed that `Income`, `CCAvg` and `Education` are the most important features while `Age` & `Securities Account` being the least
 
 Also in detail answers to above questions can be found at blog post 
+
+
+### References
+- [**CRISP-DM**](https://www.sv-europe.com/crisp-dm-methodology/)
 
