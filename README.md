@@ -2,10 +2,10 @@
 ### Predictive Model of Bank Loan Classification
 
 #### Table of Contents
-- 1. Business Problem
-- 2. Data & Model
-- 4. Results
-- 5. Licensing, Authors, and Acknowledgements
+ 1. Business Problem
+ 2. Data & Model
+ 4. Results
+ 5. Licensing, Authors, and Acknowledgements
 
 #### Business Problem
 
