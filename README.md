@@ -29,7 +29,7 @@ Following are the `questions` I tried to answer from the model:
  
  Q3: Which features are responsible for customer to get a Loan or Not.
 
-### Results
+#### Results
 Some of the key findings are:
 - `Income` and `Mortgage` columns are skewed and have kurtosis, hence logarithm of these columns transformed to Normal Distribution 
 - From the statistics summary of data we observed that Experience column has some negative values, also we checked the correlation between Age and Experience and found that they are highly corrleated hence dropped the Experience column
@@ -38,7 +38,7 @@ Some of the key findings are:
 Also in detail answers to above questions can be found at blog post [Loan Grant: A conundrum explained by XAI](https://medium.com/@akshi.gupta23/loan-grant-a-conundrum-explained-by-xai-e476d11e640e)
 
 
-### Licensing, Authors, Acknowledgements
+#### Licensing, Authors, Acknowledgements
 I give credit to **Kaggle** for the data. One can find the Licensing for the data and other descriptive information at the Kaggle link available [Universal Bank](https://www.kaggle.com/sriharipramod/bank-loan-classification). More about CRISP_DM can be found at [**CRISP-DM**](https://www.sv-europe.com/crisp-dm-methodology/).
 Feel free to use the code here as you would like and give stars!
 
