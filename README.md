@@ -13,20 +13,16 @@ Explaination of Black Box ML model is done using SHAP (SHapley Additive exPlanat
 
 The Jupyter Notebook Markdown file can be accessed through: [**Udacity_CRISP_DM_Project.ipynb**](https://github.com/akshitagupta23/Udacity_DS_ND_Proj_1/blob/main/Udacity_CRISP_DM_Project.ipynb)
 
-The main question I'm trying to answer is, if salary is a suitable measure to influence ones job satisfaction. I will break down this question into the following three question:
+Following are the `questions` I tried to answer from the model:
 
-Q1: What is the relationship between JobSatisfaction and Salary?
-Q2. What is the relationship between Salary and YearsProgramJob (Experience)?
-Q3: What is the relationship between JobSatisfaction and YearsProgramJob (Experience?)
-The key findings are, that there is a correlation between salary and job satisfaction, however the causality is not clear. It is not the result of salary increase based over years of job experience.
+- Q1: What are the distributions of the data? Is there some deviation from the Normal distribution?
+- Q2. Is the data being balanced, if not then what implication it can levy on Business decision?
+- Q3: Which features are responsible for customer to get a Loan or Not.
 
-See also my medium post with some condensed interpretation: https://medium.com/@252.at.work/salary-expericene-and-job-satisfaction-6b2fb974b849?source=friends_link&sk=d05e34a670cf950868ef16f0abad0cf8
+Some of the key findings are:
+- Income and Mortgage columns are sweked and have kurtosis, hence logarithm of these columns are transformed to Normal Distribution 
+- From the statistics summary of data we observed that Experience column has some negative values, also we checked the correlation between Age and Experience and found that they are highly corrleated hence dropped the Experience column
+- From `SHAP` for expalaining the decision it was observed that `Income`, `CCAvg` and `Education` are the most important features while `Age` & `Securities Account` being the least
 
-The analysis is done in jupyter notebook. The survey data is not included in this repository; you will need to download it from the kaggle link above. You will need the following python packages to run this jupyter notebook successfully. (You can install them via pip install )
+Also in detail answers to above questions can be found at blog post 
 
-Required Python Packages
-jupyter==1.0.0
-matplotlib==3.2.1
-numpy==1.18.2
-pandas==1.0.3
-seaborn==0.10.0
