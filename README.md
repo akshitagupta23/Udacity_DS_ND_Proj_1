@@ -29,7 +29,6 @@ Also in detail answers to above questions can be found at blog post [Loan Grant:
 
 
 ### Licensing, Authors, Acknowledgements
-I give credit to **Kaggle** for the data. One can find the Licensing for the data and other descriptive information at the Kaggle link available [Universal Bank](https://www.kaggle.com/sriharipramod/bank-loan-classification). Feel free to use the code here as you would like and give stars!
-
-- [**CRISP-DM**](https://www.sv-europe.com/crisp-dm-methodology/)
+I give credit to **Kaggle** for the data. One can find the Licensing for the data and other descriptive information at the Kaggle link available [Universal Bank](https://www.kaggle.com/sriharipramod/bank-loan-classification). More about CRISP_DM can be found at [**CRISP-DM**](https://www.sv-europe.com/crisp-dm-methodology/).
+Feel free to use the code here as you would like and give stars!
 
