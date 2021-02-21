@@ -24,7 +24,9 @@ The Jupyter Notebook Markdown file can be accessed through: [**Udacity_CRISP_DM_
 Following are the `questions` I tried to answer from the model:
 
  Q1: What are the distributions of the data? Is there some deviation from the Normal distribution?
+ 
  Q2. Is the data being balanced, if not then what implication it can levy on Business decision?
+ 
  Q3: Which features are responsible for customer to get a Loan or Not.
 
 ### Results
