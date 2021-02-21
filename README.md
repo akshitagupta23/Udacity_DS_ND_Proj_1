@@ -11,7 +11,7 @@ The model is built in juypter notebook in python 3. Several Data and ML librarie
 Hyperparameter tunning also known as Evaluation phase of CRISP-DM is done using Random Search CV.
 Explaination of Black Box ML model is done using SHAP (SHapley Additive exPlanations).
 
-The Jupyter Notebook Markdown file can be accessed through: **Udacity_CRISP_DM_Project.ipynb**
+The Jupyter Notebook Markdown file can be accessed through: [**Udacity_CRISP_DM_Project.ipynb**](https://github.com/akshitagupta23/Udacity_DS_ND_Proj_1/blob/main/Udacity_CRISP_DM_Project.ipynb)
 
 The main question I'm trying to answer is, if salary is a suitable measure to influence ones job satisfaction. I will break down this question into the following three question:
 
